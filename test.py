@@ -62,12 +62,46 @@
 
 #-------------------Class
 
-class Tanker:
-    def __init__(self = "sss"):
-        self.a = "T34"
-        self.b = "T90"
+# class Tanker:
+#     def __init__(self = "sss"):
+#         self.a = "T34"
+#         self.b = "T90"
 
-a = Tanker()
-print(a.a)
-print(a)
+# a = Tanker()
+# print(a.a)
+# print(a)
 
+
+
+#-------2021-10-18-----------
+
+import numpy as np
+import matplotlib.pyplot as plt
+from math import sin
+
+image = np.array([4,7,5,3,3])
+# print(image)
+# print(type(image))
+
+# plt.plot([1,2,3],[2,5,7])
+# plt.show()
+# plt.plot(image,image*image)
+# # plt.show()
+# print(image*image)
+# x = 4
+# print(sin(x))
+
+# list_a = list(image)
+# print(type(image))
+# a = np.ones([4,4,2])
+# # print(type(a)
+# print(a)
+# print(len(a))
+# sizz = np.shape(a)
+# print(type(sizz))
+# print("size = " + str(sizz))
+# print(sizz)
+
+ENG = ('s','w','rr')
+print(ENG)
+print(ENG[1])
