@@ -107,3 +107,6 @@ print(ENG)
 print(ENG[1])
 
 #test git extension
+
+# test from wsl2 -> ubuntu -> vs code -> git
+
